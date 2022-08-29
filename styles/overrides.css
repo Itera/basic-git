@@ -1,0 +1,18 @@
+p {
+  text-align: center;
+  opacity: 0.75 !important;
+}
+
+code {
+  padding: 0 2px;
+}
+code::before {
+  content: none !important;
+}
+code::after {
+  content: none !important;
+}
+
+table {
+  font-size: 1rem;
+}
