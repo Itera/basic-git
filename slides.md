@@ -512,7 +512,7 @@ layout: center
 layout: center
 ---
 
-# Learning Materials
+# Learning Materials & Tools
 
 - [gittutorial](https://git-scm.com/docs/gittutorial)
 - [Itera Git Fagkveld](https://github.com/Itera/git-fagkveld)
