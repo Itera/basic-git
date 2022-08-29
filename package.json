@@ -1,14 +1,20 @@
 {
   "name": "basic-git",
   "private": true,
+  "homepage": "https://itera.github.io/basic-git/",
   "scripts": {
-    "build": "slidev build",
+    "build": "slidev build --base /basic-git/",
     "dev": "slidev --open",
-    "export": "slidev export"
+    "export": "slidev export",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@slidev/cli": "^0.35.5",
     "@slidev/theme-default": "*",
-    "@slidev/theme-seriph": "*"
+    "@slidev/theme-seriph": "*",
+    "gh-pages": "^4.0.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.25.1"
   }
 }
